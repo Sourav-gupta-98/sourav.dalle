@@ -5,7 +5,7 @@ import { Configuration, OpenAIApi } from "openai";
 
 function App() {
   const configuration = new Configuration({
-    apiKey: "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",
+    apiKey: "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",
   });
 
   const openai = new OpenAIApi(configuration);
@@ -37,6 +37,7 @@ function App() {
     } catch (error) {
       setbtn("Generate 😎");
       console.log(error);
+      alert("Server Error 😌 : " + error.message);alert("Server Error 😌 : " + error.message);
     }
   };
 
