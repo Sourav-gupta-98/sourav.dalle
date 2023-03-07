@@ -1,0 +1,18 @@
+body {
+  background-color: black;
+
+}
+h3 {
+  color: aqua;
+}
+.App {
+  text-align: center;
+}
+
+.form-group {
+  border-style: none;
+  border-radius: 10px;
+  border-color: red;
+  border: 0;
+  
+}
