@@ -37,7 +37,7 @@ function App() {
     } catch (error) {
       setbtn("Generate 😎");
       console.log(error);
-      alert("Server Error 😌 : " + error.message);alert("Server Error 😌 : " + error.message);
+      alert("Server Error 😌 : " + error.message);
     }
   };
 
